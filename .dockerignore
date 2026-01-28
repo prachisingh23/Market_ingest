@@ -1,0 +1,57 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs (will be mounted as volume)
+logs/*.log
+logs/*.zip
+
+# Git
+.git/
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Documentation
+readmefile/README.md
+REDIS_ARCHITECTURE_RANKING.md
+*.md
+
+# Test files
+test_*.py
+tests/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+# Note: .env is copied into image, but docker-compose.yml overrides REDIS_URL
+.env.example
+.env.local
+.env.*.local
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
